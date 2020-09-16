@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+
+/*ctn input btn*/
+
+.ctn-1{
+    overflow: hidden;
+}
+
+.process-ctn{
+    overflow: hidden;
+    margin: auto;
+    background: brown;
+}
+
+.data-process{
+    float: left;
+    height: 200px;
+    background:brown;
+    max-width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.ctn-list{
+    float: left;
+    width: 1000px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.input-ctn{
+    width: 100%;
+    border: none;
+    outline: none;
+    background: cornsilk;
+    color: black;
+    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.data{
+    background: green;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 10px;
+    color: white;
+}
+
+.process{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;  
+    background: greenyellow;
+    color: black;
+}
+
+/*button*/
+
+.btn{
+    width: 100%;
+    border: none;
+    background:green;
+    color: seashell;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-list{
+    border: none;
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    background:brown;
+    color: seashell;
+    border-radius: 5px;
+}

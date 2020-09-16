@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="style.css">
+ </head>
+ <body>
+    <div class="ctn-1">
+         <div class="data-process">
+            <input type="text" placeholder="Nombre proceso" class="input-ctn" id="name">
+            <input type="text" placeholder="Tiempo de llegada" class="input-ctn" id="arrival">
+            <input type="text" placeholder="Tiempo de duración" class="input-ctn" id="duration">
+            <button class="btn" id="btn-ctn">Nuevo proceso</button>
+         </div>
+         <div class="ctn-list" id="process-list">
+            <button class="btn-list" id="btn-run">Ejecutar</button>
+         </div>
+    </div>
+    <div id="demo" class="process-ctn"></div>
+    <script src="proyecto.js"></script>
+ </body>   
+</html>
+
+
+/*Esta aplicacion muestra con que proceso se va iniciar y quien le sigue despues, segun el orden de llegada*/
